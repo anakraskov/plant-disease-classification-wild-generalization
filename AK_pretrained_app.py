@@ -17,7 +17,7 @@ status.write("Imports loaded ✅")
 # ---- robust paths (independent of where you run from) ----
 IMG_SIZE = (224, 224)
 APP_DIR = Path(__file__).resolve().parent
-MODEL_PATH = APP_DIR / "models" / "v3_best.keras"
+MODEL_PATH = APP_DIR / "models" / "v3-1_best_linux.keras"
 CLASS_NAMES_PATH = APP_DIR / "data" / "splits" / "class_names.json"
 
 status.write(f"Model exists: {MODEL_PATH.exists()}  ({MODEL_PATH})")
