@@ -103,6 +103,7 @@ celerybeat.pid
 
 # Environments
 .env
+.env.*
 .venv
 env/
 venv/
@@ -128,10 +129,6 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-
-data/*.csv
-models/*.sav
-mlruns/
 # ignore everything in models...
 models/*
 # ...but keep .keras models tracked
@@ -139,17 +136,9 @@ models/*
 # (optional) keep placeholder tracked
 !models/.gitkeep
 
-#config file has sensitive data
-.mlflow_uri
-
 # Data (never commit raw images)
 data/raw/
 PlantVillage/
-data/wild_test/
-data/wild_pool/
-data/splits/
-reports/
-data/
 
 # Large files
 *.zip

@@ -1,5 +1,32 @@
-streamlit
+# =========================
+# Core Data Science Stack
+# =========================
+numpy==1.26.4
+pandas==2.2.2
+matplotlib==3.7.1
+seaborn==0.12.2
+scikit-learn==1.2.2
+
+# =========================
+# Deep Learning
+# =========================
 tensorflow==2.15.0
-numpy
+protobuf<5  # compatibility with TensorFlow on some systems
+
+# =========================
+# Streamlit App / UI
+# =========================
+streamlit
 pillow
 opencv-python-headless==4.11.0.86
+
+# =========================
+# Utilities
+# =========================
+tqdm
+pydot
+
+# =========================
+# Development / Jupyter
+# =========================
+ipykernel
