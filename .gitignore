@@ -131,8 +131,8 @@ dmypy.json
 
 # ignore everything in models...
 models/*
-# ...but keep .keras models tracked
-!models/*.keras
+# ...but keep the model for Steamlit deployment
+!models/v3-1_best_linux.keras
 # (optional) keep placeholder tracked
 !models/.gitkeep
 
